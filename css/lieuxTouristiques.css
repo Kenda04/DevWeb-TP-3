@@ -1,0 +1,52 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+}
+header {
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(206, 17, 38);
+    height: 175px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+#flag {
+    width: 150px;
+    height: 100px;
+    border: solid black;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+#nav2 {
+    text-align: center;
+}
+#nav1 {
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    text-align: right;
+}
+a.nav {
+    color: white;
+}
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+li {
+    display: inline;
+}
+li a {
+    text-decoration: none;
+    text-align: center;
+    padding: 8px;
+}
+li a:hover {
+    background-color: rgb(143, 14, 29);}
+#active {
+    background-color: rgb(238, 24, 49);}
