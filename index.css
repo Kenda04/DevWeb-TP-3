@@ -63,13 +63,18 @@ li a:hover {
     left: 0px;
     top: 175px;
     width: 40%;
-    height: 849px;
+    height: 100%px;
+}
+#presentationVideo {
+    font-size: 36px;
 }
 #imgPays {
     position: absolute;
     left: 40%;
     top: 175px;
     width: 60%;
-    height: 849px;
-    
+    height: 100%;
+    background: url(./images/Mexique.webp);
+    background-size: cover;
+    background-position-x: center;
 }
